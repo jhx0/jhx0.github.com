@@ -1,0 +1,146 @@
+html, 
+body {
+	background-color: #F4F4F4;
+	height: 100vh;
+}
+
+.container {
+	min-height: 100vh;
+	width: 100vw;
+}
+
+.box {
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+}
+
+.content {
+	flex: 1;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	font-family: sans-serif;
+}
+
+.left-content {
+	display: flex;
+	flex: 1 0 0;
+	flex-direction: column;
+	align-items: center;
+	box-sizing: border-box;
+	height: 100%;
+	width: 100%;
+	padding: 2em;
+	background-color: #eaeaea;
+}
+
+.logo {
+	height: auto;
+	width: 60%;
+}
+
+#contacts {
+	padding-top: 50px;
+}
+
+#email-txt {
+	padding-top: 40px;
+}
+
+.prompt {
+	color: #ff2626;
+}
+
+.account-logo {
+	font-size: 4em;
+	padding: 10px;
+}
+
+.right-content {
+	display: flex;
+	flex: 5 0 0;
+	box-sizing: border-box;
+	height: 100%;
+	width: 100%;
+	padding: 2em;
+	animation: fadein 5s;
+}
+#txt-start {
+	padding-top: 40px;
+}
+
+.main-text {
+	line-height: 1.5em;
+	font-size: 1.2em;
+}
+
+#hello {
+	font-size: 1.5em;
+}
+
+ul {
+	list-style-type: circle;
+	list-style-position: inside;
+	list-style: inside;
+	padding-top: 5px;
+	padding-left: 15px;
+}
+
+.logo-styling:hover {
+	color: #ff2626 !important;
+}
+
+.logo-styling:visited {
+	color: black;
+}
+
+.logo-styling:link {
+	color: black;
+}
+
+.os-links {
+	text-decoration: underline;
+}
+
+.os-links:hover {
+	color: #ff2626 !important;
+}
+
+.os-links:visited {
+	color: black;
+}
+
+.os-links:link {
+	color: black;
+}
+
+.top-bar {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+	background-color: #333;
+	min-height: 2.2em;
+}
+
+.top-bar-heading {
+	color: white;
+	padding-left: 10px;
+	font-family: sans-serif;
+}
+
+.shell-block {
+	animation: 2s blink step-end infinite;
+	color: ;	
+}
+
+@keyframes blink {
+	from, to {
+		color: transparent;
+	}
+	50% {
+		background: #ff2626;
+	}
+}

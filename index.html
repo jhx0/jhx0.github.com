@@ -1,94 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
+		<title>Yet another UNIX user</title>
+
 		<meta charset="utf-8">
-
-		<meta name="description" content="Yet another Unix user">
 		<meta name="author" content="jhx">
+		<meta name="Yet another UNIX user" content="The personal website of jhx">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 
-		<link rel="icon" href="media/fav.png">
+		<link rel="icon" href="assets/icon/favicon.png" type="image/x-icon">
 
-		<title>Yet another Unix user</title>
+		<link rel="stylesheet" href="assets/css/reset.css"> 
+		<link rel="stylesheet" href="assets/css/styles.css">
 
-		<style type="text/css">
-			body {
-				margin: 40px auto;
-				max-width: 550px;
-				line-height: 1.6;
-				font-size: 18px;
-				color:#444;
-				padding: 10px
-			}
-			
-			h1,h2,h3 {
-				line-height:1.2
-			}
-			
-			.site-content {
-				margin-top: 40px;
-			}
-			
-			.site-footer {
-				margin-top: 40px;
-			}
-			
-			#site-heading {
-				text-align: center;
-			}
-		</style>
+		<link href="assets/fonts/fontawesome/css/fontawesome.css" rel="stylesheet">
+		<link href="assets/fonts/fontawesome/css/brands.css" rel="stylesheet">
+		<link href="assets/fonts/fontawesome/css/solid.css" rel="stylesheet">
 	</head>
 	<body>
-		<header class="site-header">
-			<h1 id="site-heading">Yet another Unix user</h1>
-			<hr>
-		</header>
+		<div class="container">
+			<div class="box">
+				<div class="top-bar">
+					<p class="top-bar-heading"><span class="prompt">root #</span> cat /home/jhx/info.txt <span class="shell-block">|</span></p>
+				</div>
+				<main class="content">
+					<div class="left-content">
+						<img class="logo" src="assets/img/gir.png" alt="Gir, Invader Zim character. Robot.">
+						<p><em>"Stay open!"</em></p>
+						<p id="contacts">Contact:</p>
+						<a class="logo-styling" href="https://twitter.com/someonenamedjhx"><i class="account-logo fa-brands fa-twitter"></i></a>
+						<a class="logo-styling" href="https://github.com/jhx0"><i class="account-logo fa-brands fa-github"></i></a>
+						<a class="logo-styling" href="https://www.reddit.com/user/jhx0"><i class="account-logo fa-brands fa-reddit"></i></a>
+						<a class="logo-styling" href="https://fosstodon.org/@jhx"><i class="account-logo fa-brands fa-mastodon"></i></a>
+						<p id="email-txt">..or via eMail:</p>
+						<a id="email" class="logo-styling" href="#"><i class="account-logo fa-solid fa-envelope"></i></a>
+					</div>
+					<div class="right-content">
+						<div class="main-text">
+							<p id="hello">Hey there! 👋</p>
+							<p id="txt-start">Welcome to my tiny corner in the <b>ocean</b> which is the <b>web</b>!</p><br>
+							<p>My name is Julian "<b>jhx</b>" and I currently live and work on this planet (..still).</p><br>
+							<p>I'm deeply interested in <b>IT</b> (...and stuff that has to do with <b>computers</b>).</p>
+							<p>I also quite enjoy <b>retro computers</b> - or systems from the past in general.</p><br>
+							<p><b>Retro</b> gaming is a great pastime of mine (<b>NES</b>, <b>SNES</b>, <b>GB</b>, <b>N64</b>, <b>PC</b> etc.).</p><br>
+							<p>Little old me loves <b>GNU/Linux</b> and <b>BSD</b>. Sometimes I dabble with <b>Windows</b>.</p>
+							<p>I currently use the following systems:</p>
+							<ul>
+								<li><a class="os-links" href="https://freebsd.org">FreeBSD</a></li>
+								<li><a class="os-links" href="https://openbsd.org">OpenBSD</a></li>
+								<li><a class="os-links" href="https://debian.org">Debian</a></li>
+								<li><a class="os-links" href="http://slackware.com">Slackware</a></li>
+							</ul>
+							<br><p>Yes, I also do some <b>coding</b> for <b>fun</b>. These are the <b>languages</b> i'm interested in currently:<p>
+							<ul>
+								<li><b>C</b></li>
+								<li><b>C++</b></li>
+								<li><b>Go</b></li>
+								<li><b>Python</b></li>
+								<li><b>Web development</b> (<b>HTML</b>, <b>CSS</b>, <b>JS</b>, <b>PHP</b>)</li>
+								<li><b>Shell Scripting</b></li>
+							</ul>
+							<br><p>Check out my <b>Github</b> page and maybe find something useful!</p><br>
 
-		<article class="site-content">
-			<p><b>Hey there!</b><br>
-
-			<p>Welcome to my tiny corner in the ocean which is the web.</p>
-
-			<p>My name is Julian (jhx) and I currently live and work on this planet.</p>
-
-			<p>I'm deeply interested in <b>IT</b> (...and stuff that has to do with computers).</p>
-			
-			<p>I also quite enjoy <b>retro computers</b> - or systems from the past in general.</p>
-			
-			<p><b>Retro gaming</b> is a great pastime of mine (<b>NES</b>, <b>SNES</b>, <b>N64</b>, <b>GB</b>, <b>PC</b> etc.).</p>
-			
-			<p>Little old me loves <b>GNU/Linux</b> and <b>BSD</b> (Long time user).
-			Sometimes I dabble with <b>Windows</b> (Mostly because of games that I play... but not only).</p>
-
-			<p>Yes, I also do some coding for fun.<br>
-			You can have a look at my <a href="https://github.com/jhx0">Github</a> page and maybe find something useful!</p>
-
-			<p>You can reach me at <b><i>jhx0x00</i></b> at <b><i>gmail</i></b> dot <b><i>com</i></b>.</p>
-
-			<p>Or: <a href="https://twitter.com/someonenamedjhx">Twitter</a>, <a href="https://fosstodon.org/@jhx">Mastodon</a>.</p>
-		</article>
-
-		<footer class="site-footer">
-			<p>This site follows the <a href="https://en.wikipedia.org/wiki/KISS_principle">KISS</a> principle.</p>
-		</footer>
+							<p>That's all.. <b>have fun!</b> 😎</p>
+						</div>
+					</div>
+				</main>
+			</div>
+		</div>
+		<script>
+			var link = document.getElementById('email');
+			link.href = "ma" + "il" + "to" + ":" + "jhx" + "0x00" + "@" + "gm" + "ail" + ".com";
+		</script>
 	</body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
