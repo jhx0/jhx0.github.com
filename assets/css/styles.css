@@ -133,7 +133,6 @@ ul {
 
 .shell-block {
 	animation: 2s blink step-end infinite;
-	color: ;	
 }
 
 @keyframes blink {
